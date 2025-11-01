@@ -43,7 +43,7 @@ function Chat() {
     }));
 
     try {
-      const response = await fetch('https://my-chat-backend.onrender.com/api/chat/', {
+      const response = await fetch('https://gf-chat-project.onrender.com/api/chat/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
