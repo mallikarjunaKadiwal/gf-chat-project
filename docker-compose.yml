@@ -23,7 +23,7 @@ services:
     ports:
       # Map your VM's port 80 to the container's port 80
       # This is what makes your app public
-      - "80:80"
+      - "8081:80"
     volumes:
       # Mount our custom Nginx config into the container
       # This overwrites the default Nginx config
