@@ -53,11 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-    "https://my-chat-app-gf4z.onrender.com",
-]
+CORS_ALLOWED_ORIGINS = True
 
 ROOT_URLCONF = 'backend.urls'
 
